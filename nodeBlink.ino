@@ -1,6 +1,5 @@
 #define REMOTEXY_MODE__ESP8266WIFI_LIB_POINT
 #include <ESP8266WiFi.h> 
-
 #include <RemoteXY.h> 
 
 // RemoteXY connection settings  
@@ -62,7 +61,6 @@ void setup()
     analogWrite(PIN_SWITCH_1, 0);  
   }*/  
 } 
-
 void loop()  
 {  
   RemoteXY_Handler (); 
